@@ -45,8 +45,8 @@ A* search algorithm is similar to that of dijkstra algorithm, it uses a heuristi
 
 The simulation of dijkstra and A* search shows that if we have a fixed source and target node, the A* search algorithm finds the shortest path much faster than the dijkstra algorithm.
 
-![Dijkstra](/photos/dijkstra_2.gif)
-![A* Search](/photos/asearch_1.gif)
+<img src="/photos/dijkstra_2.gif" width=50% height=50% align="left">
+<img src="/photos/asearch_1.gif" width=50% height=50% align="right">
 
 ### Conclusion
 
