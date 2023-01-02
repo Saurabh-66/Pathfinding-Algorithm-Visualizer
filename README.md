@@ -11,7 +11,8 @@ Pathfinding algorithms are an effective way to find the most optimal or shortest
 
 ### Breadth First Search (BFS)
 
-Breadth first search is used to find shortest path when the cost of all edges is equal (let say 1). Here a queue is used to keep the track of nodes which are to be processed, the nodes which would be processed after that are its neighbors. Below is the visual representation of BFS (blue rectangle is the source vertex, green rectangles are the nodes which are processed, white rectangles represent the shortest path between source and target vertex, orange rectangles represent obstacles and pink node represents the target vertex).
+Breadth first search is used to find shortest path when the cost of all edges is equal (let say 1). Here a queue is used to keep the track of nodes which are to be processed, the nodes which would be processed after that are its neighbors.
+Below is the visual representation of BFS (blue rectangle is the source vertex, green rectangles are the nodes which are processed, white rectangles represent the shortest path between source and target vertex, orange rectangles represent obstacles and pink node represents the target vertex).
 
 ![BFS](/photos/bfs_1.gif)
 
@@ -23,7 +24,8 @@ Below is a more user driven visualization where the user selects the target node
 
 ### Dijkstra
 
-Dijkstra algorithm is used to find the shortest path from a single source to all nodes in a weighted graph with non-negative edge weights. Here a min-heap is used (it's implemented using priority_queue in C++ or heapq module in Python) and the distance to reach a particular node is updated if and only if the distance via the new route is less than the current distance to reach the node. Below is the weighted graph used to demonstrate the visualization of dijkstra algorithm.
+Dijkstra algorithm is used to find the shortest path from a single source to all nodes in a weighted graph with non-negative edge weights. Here a min-heap is used (it's implemented using priority_queue in C++ or heapq module in Python) and the distance to reach a particular node is updated if and only if the distance via the new route is less than the current distance to reach the node. 
+Below is the weighted graph used to demonstrate the visualization of dijkstra algorithm.
 
 ![Dijkstra](/photos/dijkstra_1.png)
 
@@ -33,7 +35,7 @@ Simulation of dijkstra algorithm is demonstrated below (blue dot is the source v
 
 ### A* Search
 
-A* search algorithm is similar to that of dijkstra algorithm, it uses a heuristic function to decide which node to process next. Here the manhattan distance (sum of horizontal and vertical distances between the points in a grid) is used as the heuristic function.
+A* search algorithm is similar to that of dijkstra algorithm, it uses a heuristic function to decide which node to process next. Here the **manhattan distance** (sum of horizontal and vertical distances between the points in a grid) is used as the heuristic function.
 
 ![A* Search](/photos/asearch_1.gif)
 
@@ -41,8 +43,8 @@ A* search algorithm is similar to that of dijkstra algorithm, it uses a heuristi
 
 The simulation of dijkstra and A* search shows that if we have a fixed source and target node, the A* search algorithm finds the shortest path much faster than the dijkstra algorithm.
 
-<img src="/photos/dijkstra_2" width="250" height="250"/>
-<img src="/photos/asearch_1" width="250" height="250" align="right"/>
+![Dijkstra](/photos/dijkstra_2.gif=250x250)
+![A* Search](/photos/asearch_1.gif=250x250)
 
 ### Conclusion
 
