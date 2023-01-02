@@ -47,8 +47,8 @@ The simulation of dijkstra and A* search shows that if we have a fixed source an
 
 <img src="/photos/dijkstra_2.gif" width=50% height=50% align="left">
 <img src="/photos/asearch_1.gif" width=50% height=50% align="right">
-
 <br>
+
 ### Conclusion
 
 We saw the inner functioning of all the 3 pathfinding algorithms using visual representation. Each of the algorithm as its own merits and demerits and can be used depending on the use case. For eg. if we need to find the shortest path between source and vertex and all edge weights are same then we can use breadth first search. If the graph is weighted (non-negative weights) and we need to find shortest distance to all nodes from the source node then dijkstra algorithm can be used and if the source and target vertex are fixed and we need to find the shortest path then we can apply heuristic function and modify the dijkstra algorithm to reach the possible path much faster and this technique is the A* search algorithm (the only drawback here is you will get shortest path between source and target vertex but if the goal is to find shortest path to all nodes from source then dijkstra algorithm is more prefereable).
