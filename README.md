@@ -47,7 +47,7 @@ The simulation of dijkstra and A* search shows that if we have a fixed source an
 
 <img src="/photos/dijkstra_2.gif" width=50% height=50% align="left">
 <img src="/photos/asearch_1.gif" width=50% height=50% align="right">
-<br>
+<br><br>
 
 ### Conclusion
 
