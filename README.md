@@ -1,5 +1,5 @@
 # Pathfinding-Algorithm-Visualizer
-Pathfinding algorithms are an effective way to find the most optimal or shortest path between the source node and the destination node in a graph (it can be directed or undirected, weighted or unweighted graph). We are going to visually see the internal functioning of 3 pathfinding algorithms, i.e. ***Breadth first search (BFS)***, **Dijkstra algorithm** and **A* search algorithm** and conclude which technique is best to use under different circumstances. The visualizer is built using **Pygame** which is a **Python** module.
+Pathfinding algorithms are an effective way to find the most optimal or shortest path between the source node and the destination node in a graph (it can be directed or undirected, weighted or unweighted graph). We are going to visually see the internal functioning of 3 pathfinding algorithms, i.e. **Breadth first search (BFS)**, **Dijkstra algorithm** and **A* search algorithm** and conclude which technique is best to use under different circumstances. The visualizer is built using **Pygame** which is a **Python** module.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ Below is a more user driven visualization where the user selects the target node
 
 Dijkstra algorithm is used to find the shortest path from a single source to all nodes in a weighted graph with non-negative edge weights. Here a min-heap is used (it's implemented using priority_queue in C++ or heapq module in Python) and the distance to reach a particular node is updated if and only if the distance via the new route is less than the current distance to reach the node. Below is the weighted graph used to demonstrate the visualization of dijkstra algorithm.
 
-![Dijkstra](https://github.com/Saurabh-66/Pathfinding-Algorithm-Visualizer/blob/master/photos/dijkstra_1.gif)
+![Dijkstra](https://github.com/Saurabh-66/Pathfinding-Algorithm-Visualizer/blob/master/photos/dijkstra_1.png)
 
 Simulation of dijkstra algorithm is demonstrated below (blue dot is the source vertex, purple vertex is the target vertex, red dot shows the path and pink vertex shows the current vertex which is being processed).
 
@@ -41,7 +41,8 @@ A* search algorithm is similar to that of dijkstra algorithm, it uses a heuristi
 
 The simulation of dijkstra and A* search shows that if we have a fixed source and target node, the A* search algorithm finds the shortest path much faster than the dijkstra algorithm.
 
-![Dijkstra vs A* Search](https://github.com/Saurabh-66/Pathfinding-Algorithm-Visualizer/blob/master/photos/dijkasearch_1.gif)
+![Dijkstra](https://github.com/Saurabh-66/Pathfinding-Algorithm-Visualizer/blob/master/photos/dijkstra_2.gif)
+![A* Search](https://github.com/Saurabh-66/Pathfinding-Algorithm-Visualizer/blob/master/photos/asearch_1.gif)
 
 ### Conclusion
 
