@@ -1,12 +1,12 @@
 # Pathfinding-Algorithm-Visualizer
-Pathfinding algorithms are an effective way to find the most optimal or shortest path between the source node and the destination node in a graph (it can be directed or undirected, weighted or unweighted graph). We are going to visually see the internal functioning of 3 pathfinding algorithms, i.e. ***Breadth first search (BFS)***, ***Dijkstra algorithm*** and ***A* search algorithm*** and conclude which technique is best to use under different circumstances. The visualizer is built using ***Pygame*** which is a ***Python*** module.
+Pathfinding algorithms are an effective way to find the most optimal or shortest path between the source node and the destination node in a graph (it can be directed or undirected, weighted or unweighted graph). We are going to visually see the internal functioning of 3 pathfinding algorithms, i.e. ***Breadth first search (BFS)***, **Dijkstra algorithm** and **A* search algorithm** and conclude which technique is best to use under different circumstances. The visualizer is built using **Pygame** which is a **Python** module.
 
 ## Table of Contents
 
-- [Breadth First Search (BFS)](#breadth-first-search)
+- [Breadth First Search (BFS)](#breadth-first-search-bfs)
 - [Dijkstra](#dijkstra)
-- [A* Search](#a*-search)
-- [Dijkstra vs A* Search](#dijkstra-vs-a*-search)
+- [A* Search](#a-search)
+- [Dijkstra vs A* Search](#dijkstra-vs-a-search)
 - [Conclusion](#conclusion)
 
 ### Breadth First Search (BFS)
